@@ -8,7 +8,7 @@ let int = setInterval(blurring, 30);
 function blurring() {
 
   load++;
-  
+
   loadingText.textContent = `${load}%`;
 
   loadingText.style.opacity = scale(load, 0, 100, 1, 0);
